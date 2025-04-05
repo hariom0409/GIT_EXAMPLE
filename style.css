@@ -1,0 +1,44 @@
+body {
+        font-family: 'Arial', sans-serif;
+        background-color: #ac7d31;
+        color:#ca4700;
+        text-align: center;
+    }
+    
+    header {
+        background-color: #ff9933;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .pandit-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .pandit {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .pandit img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #8B0000;
+    }
+    
+    #upload {
+        margin-top: 30px;
+    }
+    
+    button {
+        background-color: #ff6600;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    
